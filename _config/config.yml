@@ -1,0 +1,12 @@
+---
+Name: cropzoom
+After:
+  - 'framework/*'
+  - 'cms/*'
+---
+Image:
+  extensions:
+    - CropZoomImage
+Director:
+  rules:
+    'admin/cropzoom//$Action': 'CropZoomController'
